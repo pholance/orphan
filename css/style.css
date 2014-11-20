@@ -71,8 +71,7 @@ img {
     margin-bottom: 0px;
 }
 .video-player {
-    height: 180px;
-    overflow: hidden;
+    min-height: 180px;
     background: url(../images/video_logo_bg.jpg) no-repeat center;
 }
 .box-list-1 {
