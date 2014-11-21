@@ -26,7 +26,8 @@ body {
     padding-left: 20px;
     float: left;
     position: absolute;
-    top: 0;
+    bottom: 0;
+    margin-bottom: 0;
     background: url(../images/banner_bg.png) no-repeat left top;
 }
 .banner .dots {
@@ -59,10 +60,8 @@ img {
     background-image: url(../images/bg_repeat.jpg);
     background-repeat: repeat-y;
 }
-.video {
-    overflow: hidden;
-    background: url(../images/video_bg.jpg);
-    padding: 24px;
+.video>.list-group-item:first-child {
+    padding: 4px;
 }
 .video .media-left {
     width: 58px;
