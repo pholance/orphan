@@ -18,6 +18,7 @@ function flowpic(mql) {
         var col4 = $('<div class="col-sm-3"></div>');
         var items = $("div.col-sm-3");
         items.each(function (index) {
+            index = index + 1;
             $(this).removeClass("col-xs-12");
             $(this).removeClass("col-sm-3");
             if (index % 4 === 1) {
