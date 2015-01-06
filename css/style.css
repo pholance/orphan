@@ -1,90 +1,38 @@
 @charset "utf-8";
-body {
-    background: url(../images/body_bg.jpg) repeat;
+#head {
+    background-color: #E4F1E2;
+    color: #184531;
 }
-.container {
-    max-width: 1000px;
+#head dt,#head dd{
+    margin-top: 3px;
 }
-#love-start-content {
-    background-image: url(../images/1_layout_bg.jpg);
-    background-size: 120% 100%;
-    background-repeat: no-repeat;
-}
-.title {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.banner { position: relative; overflow: auto;}
-.banner ul { padding: 0px}
-.banner li { list-style: none; }
-.banner ul li { float: left; }
-.banner img {width: 100%}
-.banner li p {
-    width: inherit;
-    color: #FFF;
-    line-height: 35px;
-    padding-left: 20px;
-    float: left;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 0;
-    background: url(../images/banner_bg.png) no-repeat left top;
-}
-.banner .dots {
-    position: absolute;
-}
-.banner_txt {
-    overflow: hidden;
-    height: auto;
-    border: 1px solid #cdcdcd;
-    border-top: none;
-    background: #024168;
-    line-height: 34px;
-}
-.banner_txt p {
-    text-indent: 2em;
-    color: #fff;
-    padding: 0 10px;
-    font-size: 16px;
-    line-height: 24px;
-}
-.title-3 {
-    margin-top: 24px;
-}
-img {
-    width: inherit;
-}
-.panel-text {
-    margin-left: 30px;
-    padding-left: 50px;
-    background-image: url(../images/bg_repeat.jpg);
-    background-repeat: repeat-y;
-}
-.video>.list-group-item:first-child {
+#special {
     padding: 4px;
-}
-.video .media-left {
-    width: 58px;
-}
-.video .list-group {
-    margin-bottom: 0px;
-}
-.video-player {
-    min-height: 180px;
-    background: url(../images/video_logo_bg.jpg) no-repeat center;
-}
-.box-list-1 {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
     border-radius: 4px;
-    overflow: hidden;
-    background: white url(../images/box_1_bg.jpg) no-repeat bottom right;
 }
-.tab-content img, .nav img {
+#special>a>img {
     width: 100%;
 }
-.nav li {
-    padding: 0px;
+#special>.detail>h4>small {
+    margin-left: 10px;
 }
-.footer_in {
-    height: 115px;
-    background: url(../images/footer_bg.jpg) repeat-x left 56px;
+@media (min-width: 768px) {
+    #special>a>img {
+        width: 100%;
+        height: 100%;
+    }
+    #special>a{
+        width: 30%;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #special>.detail {
+        max-width: 69%;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 8px;
+    }
 }
